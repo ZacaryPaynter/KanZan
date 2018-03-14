@@ -1,0 +1,22 @@
+{
+  "name": "kanzan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacaryPaynter/KanZan.git"
+  },
+  "author": "Zacary and Kirita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZacaryPaynter/KanZan/issues"
+  },
+  "homepage": "https://github.com/ZacaryPaynter/KanZan#readme",
+  "dependencies": {
+    "mongodb": "^3.0.4"
+  }
+}
