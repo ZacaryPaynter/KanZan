@@ -36,19 +36,6 @@ function addItem (value) {
 }
 
 function renderTodoList() {
-	console.log("gonna connect here");
-
-// Connect to the db
-MongoClient.connect("mongodb://kirita:zacary@ds263948.mlab.com:63948/kanzan", function (err, db) {
-   
-     if(err) throw err;
-
-     //Write databse Insert/Update/Query code here..
-     console.log("connected");
-                
-});
-
-
   if (!data.todo.length && !data.completed.length) return;
 
   for (var i = 0; i < data.todo.length; i++) {
